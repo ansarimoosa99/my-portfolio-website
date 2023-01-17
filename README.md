@@ -2,7 +2,11 @@
 
 Hey! Welcome to my portfolio.
 
-Its coming up soonn, when I learn HTML and CSS.
+Its live now.
+
+click here [https://moosaansari.netlify.app/index.html]
+
+All my projects and blogs are listed on the website.
 
 For now, I know:
 1. Html
