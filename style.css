@@ -5,7 +5,8 @@
     --primary-color: #1F2937;
     --link-color: white;
     --hero-heading-gray: #64748b;
-    --off-white: #fee2e2
+    --off-white: #CBCBCB;
+    --black : black;
 }
 
 body {
@@ -30,8 +31,9 @@ hr {
         padding:1rem 1rem; 
 } */
 .container-center {
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
+    max-width: 600px;
 }
 
 
@@ -70,6 +72,9 @@ hr {
 }
 
 /* navigation */
+.navigation .nav-brand {
+    font-weight: bold;
+}
 
 .navigation {
     background-color: var(--primary-color);
@@ -96,16 +101,21 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 
 }
 
 .hero .hero-img {
-    max-width: 200px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
+    /* text-align: center; */
+    max-width: 600px;
+    margin: auto;
+
     /* font-size: x-large; */
     color: var(--primary-color);
     padding-top: 2rem;
@@ -119,7 +129,10 @@ hr {
 /* section  */
 
 .section {
-    padding: 2rem;
+    /* align-content: center;
+    max-width: 60%; */
+    padding-top: 2rem ;
+    padding-bottom: 4rem;
 }
 
 .section h1 {
@@ -150,3 +163,21 @@ hr {
     padding-inline-start: 0px;
 
 }
+
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
+}
+
+.projects {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.section .link-blog{
+    text-decoration: none;
+    padding : 0rem 0rem;
+    color: var(--black );
+} 
