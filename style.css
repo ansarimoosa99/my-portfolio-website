@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 :root {
     --primary-color: #1F2937;
     --link-color: white;
@@ -74,12 +73,16 @@ hr {
 /* navigation */
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+
+    
 }
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem 0.5rem;
+    padding: 2rem 3rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -113,16 +116,17 @@ hr {
 
 .hero .hero-heading {
     /* text-align: center; */
-    max-width: 600px;
+    font-size: 2.5rem;
+    max-width: 650px;
     margin: auto;
-
+    margin-bottom:3rem;
     /* font-size: x-large; */
-    color: var(--primary-color);
+    color: var(--hero-heading-gray);
     padding-top: 2rem;
 }
 
 .header-heading-style {
-    color: var(--hero-heading-gray);
+    color: var(--primary-color);
 }
 
 
